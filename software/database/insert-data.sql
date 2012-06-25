@@ -1,3 +1,4 @@
+INSERT INTO beer(id, beer_name, brewer, date_received) VALUES (7, 'Sprecher Root Beer','AWSCLI07','2012-12-25');
 INSERT INTO beer(id, beer_name, brewer, date_received) VALUES (1, 'Sprecher Root Beer','Sprecher Brewery','2012-12-09');
 INSERT INTO beer(id, beer_name, brewer, date_received) VALUES (2, 'Hanks Gourmet Root Beer','Hanks Gourmet Beverages','2013-02-19');
 INSERT INTO beer(id, beer_name, brewer, date_received) VALUES (3, 'Dads Root Beer','Hedinger Brands LLC','2012-05-14');
