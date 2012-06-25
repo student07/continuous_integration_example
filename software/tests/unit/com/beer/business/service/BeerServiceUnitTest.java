@@ -8,6 +8,7 @@ public class BeerServiceUnitTest extends TestCase {
 
 	private BeerDaoStub beerData;
 
+	private int i;
 	public BeerServiceUnitTest(String name) {
 		super(name);
 	}
