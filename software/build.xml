@@ -163,7 +163,9 @@
 
 	<target name="integrate-database">
 		<echo message="Running integrate-database target" />
-		<ant inheritAll="true" inheritRefs="true" antfile="database-integration.xml" />
+		
+
+<ant inheritAll="true" inheritRefs="true" antfile="database-integration.xml" />
 	</target>
 
 	<target name="run-tests" if="unit.tests.yes" depends="compile-tests">
