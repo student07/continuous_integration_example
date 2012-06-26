@@ -13,6 +13,7 @@ public class BeerServiceUnitTest extends TestCase {
 		super(name);
 	}
 
+
 	public void setUp() {
 		beerData = new BeerDaoStub();
 	}
