@@ -3,6 +3,7 @@ Feature: Scripted provisioning of target environment
     I would like a scripted deployment
     so that I can assume the deployment will work the same way everytime
 
+
     Background:
         Given I am sshed into the environment
 
@@ -24,7 +25,7 @@ Feature: Scripted provisioning of target environment
         Then I should see "3:on"
         
     Scenario: The application is up and running
-        When I run "/usr/bin/wget -qO- http://target.devopscloud.com"
+        When I run "/usr/bin/wget -qO- http://software/target/deployment/brewery.war"
         Then I should see "Sample App"
         
     
