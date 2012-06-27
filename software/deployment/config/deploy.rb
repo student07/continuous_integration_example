@@ -7,7 +7,7 @@ sdb = AWS::SimpleDB.new
 set :sdb_domain, "cd29"
 
 set :domain do
-  item = sdb.domains["#{sdb_domain}"].items['parameters']
+  item = sdb.domains["#{cd07}"].items['parameters']
   item.attributes['ip_address'].values[0].to_s
 end
 
