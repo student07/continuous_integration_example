@@ -18,4 +18,15 @@ CREATE TABLE user (
   PRIMARY KEY  (USERNAME)
 );
 
+CREATE TABLE country(
+  COUNTRY varchar(2) NOT NULL,
+  description  varchar(50),
+  PRIMARY KEY  (COUNTRY)
+);
+
+CREATE TABLE town(
+  TOWN varchar(2) NOT NULL,
+  description  varchar(50),
+  PRIMARY KEY  (TOWN)
+);
 commit;
