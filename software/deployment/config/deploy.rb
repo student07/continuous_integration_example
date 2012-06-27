@@ -8,7 +8,7 @@ set :sdb_domain, "automanateestack0"
 
 
 set :domain do
-  item = sdb.domains["#{sdb_domain}"].items["parameters"]
+  item = sdb.domains["#{cd07}"].items["parameters"]
   item.attributes["domain"].values[0].to_s
 end
 
